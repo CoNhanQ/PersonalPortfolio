@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Work Sans", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
+  }
+
+nav {
+    position: fixed;
+    width: 100%;
+  }
+
+nav ul {
+    list-style-type: none;
+  }
+  
+nav ul a {
+    text-decoration: none;
+    font-family: "Work Sans";
+    color: #000000;
+  }
+  
+nav ul a.active {
+    background-color: #1E90FF;
+  }
+  
+nav ul a:hover {
+    background-color: #1E90FF
+  }
+
+.body {
+    background-color: rgba(241, 139, 44, 0.671);
+}
+
